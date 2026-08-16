@@ -12,6 +12,37 @@
             border-left: 2px solid #ffffff;
             vertical-align: middle;
         }
+        .text-collumn img {
+            width: 50%;
+        }
+        .projects {
+            display: grid;
+            grid-template-collumns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .project-card {
+            background: #0f172a;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: left;
+            transition: 0.2s;
+            border: 1px solid #3341555;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: #60a5fa;
+        }
+        .project-card h3 {
+            color: #60a5fa;
+            margin-top: 0;
+        }
+        .project-card p {
+            font-size: 16px;
+        }
+        .project-button:hover {
+            background: #3b82f6;
+        }
     </style>
     <p>Hi my name is Casper Lepouttre, I like gaming, building stuff and everything that is plane related.</p>
     <p>I want to become a pilot in the Belgian Air Force when I grow up and I am already doing internships with them.</p>
@@ -32,3 +63,10 @@
          Super awesome cockpit project
     </a>
 </div>
+<div class="projects">
+
+<div class="project-card">
+    <h3> SU-33 cockpit</h3>
+    <p>A full size cockpit in the shape of an SU-33</p>
+    <a href="#" class="project-button">viewe project</a>
+
