@@ -1,7 +1,2 @@
-# my portofolio
-## I built a portofolio with macondo form hackclub
-- I used the built in tutorial
-
-## Preview
-
-![Website Preview](https://cdn.hackclub.com/019e9bfc-a22f-772b-afb2-420ad13fb1e2/screenshot.png)
+This is my portofolio I made with macondo tutorial from hack club
+On this site I talk about planes (f16 AM)
